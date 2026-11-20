@@ -11,10 +11,9 @@
 
 <br/>
 
-[![Latest release](https://img.shields.io/github/v/release/project-anonymous02/NrNMusic?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/releases)
-[![License](https://img.shields.io/github/license/project-anonymous02/NrNMusic?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/project-anonymous02/NrNMusic/total?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/releases)
-[![Listening now](https://api.bitchord.kushagrasingh.in/api/stats/live/badge.svg)](https://api.bitchord.kushagrasingh.in/api/stats/live)
+[![Latest release](https://img.shields.io/github/v/release/project-anonymous02/nrnmusic-based?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/releases)
+[![License](https://img.shields.io/github/license/project-anonymous02/nrnmusic-based?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/project-anonymous02/nrnmusic-based/total?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/releases)
 
 <br/>
 
@@ -23,7 +22,7 @@
 <br/>
 
 <a href="https://fmhy.net/mobile#youtube-music" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/available/fmhy/cozy.svg" alt="Featured on FMHY" height="55"/></a>
-<a href="https://trendshift.io/repositories/177639?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-177639" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/177639" alt="project-anonymous02%2FNrNMusic | Trendshift" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/177639?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-177639" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/177639" alt="project-anonymous02%2Fnrnmusic-based | Trendshift" width="250" height="55"/></a>
 
 </div>
 
@@ -109,7 +108,7 @@ We welcome contributions to NrNMusic! Please review our [Contributing Guide](CON
 ### Thanks to all contributors ❤
 
 <a href="https://github.com/project-anonymous02/nrnmusic-based/graphs/contributors">
-  <img src="https://raw.githubusercontent.com/project-anonymous02/NrNMusic/contributors/contributors.svg" />
+  <img src="https://raw.githubusercontent.com/project-anonymous02/nrnmusic-based/contributors/contributors.svg" />
 </a>
 
 </div>
