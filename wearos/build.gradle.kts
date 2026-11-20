@@ -16,7 +16,7 @@ plugins {
  *
  * It has to share the phone app's application id *and* signing key, because the
  * Wearable Data Layer only delivers between apps that match on both. So:
- *   dev  -> com.dev.NrNMusic   pairs only with the phone's dev build
+ *   dev  -> com.dev.nata.nrnmusic   pairs only with the phone's dev build
  *   prod -> com.nata.nrnmusic pairs only with the phone's prod build
  * and each build type is signed exactly the way the phone's is (debug key for
  * debug, the release keystore for release), so a watch build pairs with the
@@ -53,7 +53,7 @@ android {
     productFlavors {
         create("dev") {
             dimension = "env"
-            applicationId = "com.dev.NrNMusic"
+            applicationId = "com.dev.nata.nrnmusic"
             resValue("string", "app_name", "NrNMusic Dev")
         }
         create("prod") {

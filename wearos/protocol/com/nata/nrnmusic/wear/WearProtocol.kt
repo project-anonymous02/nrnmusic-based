@@ -9,7 +9,7 @@ package com.nata.nrnmusic.wear
  *
  * Which phone a watch talks to is not decided here at all. The Wearable Data
  * Layer only ever delivers between apps with the same package name *and* the
- * same signing key, so the dev watch app (`com.dev.NrNMusic`) can only ever see
+ * same signing key, so the dev watch app (`com.dev.nata.nrnmusic`) can only ever see
  * the dev phone app, and prod only prod. That is why the watch app takes the
  * phone app's application ids rather than ids of its own.
  *

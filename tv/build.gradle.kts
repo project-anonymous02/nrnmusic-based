@@ -150,7 +150,7 @@ android {
     productFlavors {
         create("dev") {
             dimension = "env"
-            applicationId = "com.dev.NrNMusic.tv"
+            applicationId = "com.dev.nata.nrnmusic.tv"
             resValue("string", "app_name", "NrNMusic TV")
         }
         create("prod") {
@@ -481,10 +481,10 @@ val verifyDevInstall = tasks.register("verifyDevInstall") {
             .drop(1)
             .mapNotNull { line -> line.split('\t').takeIf { it.size == 2 && it[1] == "device" }?.get(0) }
         serials.forEach { serial ->
-            logger.lifecycle("verifyDevInstall: compiling com.dev.NrNMusic on $serial")
+            logger.lifecycle("verifyDevInstall: compiling com.dev.nata.nrnmusic on $serial")
             ProcessBuilder(
                 adbPath, "-s", serial, "shell", "cmd", "package", "compile",
-                "-m", "verify", "-f", "com.dev.NrNMusic",
+                "-m", "verify", "-f", "com.dev.nata.nrnmusic",
             ).inheritIO().start().waitFor()
         }
     }
