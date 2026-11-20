@@ -1,155 +1,173 @@
-<div align="center">
+<p align="center">NrNMusic</p>
 
-<br/>
-<br/>
+<div align="center"><img src="Logo.png" alt="NrNMusic Logo" width="180"/>Aesthetic Music Experience
 
-<img src="Logo.png" alt="NrNMusic app icon" width="200" />
+A modern Android music player with a beautiful interface, powerful audio capabilities, and a highly customizable listening experience.
 
-# NrNMusic
+<br/>"Platform" (https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+"License" (https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
+"Project" (https://img.shields.io/badge/Project-NrNMusic-8A63D2?style=flat-square)
 
-### Aesthetic YouTube Music Client
+</div>---
 
-<br/>
+✦ About NrNMusic
 
-[![Latest release](https://img.shields.io/github/v/release/project-anonymous02/nrnmusic-based?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/releases)
-[![License](https://img.shields.io/github/license/project-anonymous02/nrnmusic-based?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/project-anonymous02/nrnmusic-based/total?style=for-the-badge&labelColor=0d1117)](https://github.com/project-anonymous02/nrnmusic-based/releases)
+NrNMusic is an independent Android music player built around three essential ideas: aesthetics, flexibility, and audio quality.
 
-<br/>
+It combines online music streaming, local playback, synchronized lyrics, advanced audio processing, and a carefully designed interface into one unified experience.
 
-[**Download**](#download) · [**Features**](#features) · [**Contributing**](#contributing) · [**Support**](#support) · [**Disclaimer**](#disclaimer)
-
-<br/>
-
-<a href="https://fmhy.net/mobile#youtube-music" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/available/fmhy/cozy.svg" alt="Featured on FMHY" height="55"/></a>
-<a href="https://trendshift.io/repositories/177639?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-177639" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/177639" alt="project-anonymous02%2Fnrnmusic-based | Trendshift" width="250" height="55"/></a>
-
-</div>
-
-> [!IMPORTANT]
-> NrNMusic is not affiliated with, endorsed by, or connected to YouTube or Google in any way. Use it at your own discretion.
+From casual listening to advanced audio configurations, NrNMusic aims to make every listening session feel personal.
 
 ---
 
-<div align="center">
-
-<img src="Banner.png" alt="NrNMusic banner" width="100%" />
-
-<h1><a id="features"></a>Features</h1>
+✧ Features
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
+<tr>
+<td width="50%" valign="top">🎵 Music & Playback
 
-#### Playback
-- **Search, browse and play** anything available on YouTube Music.
-- **Hi-Res lossless audio** — FLAC/ALAC from a configured module source, with YouTube Music as fallback.
-- **Gapless playback with true crossfade**, adjustable 0–12s.
-- **Automix [Beta]** — DJ-style transitions with beat-matching and tempo-stretching.
-- **Offline downloads** — save tracks with embedded metadata.
-- **Local music library** integration.
-- **Background playback** via a proper foreground media session.
-- **Apple-like lyrics animation** — credit to [binimum](https://github.com/binimum/am-lyrics).
+- Search, browse, and play YouTube Music content.
+- Hi-Res lossless audio through configurable module sources.
+- Gapless playback.
+- True crossfade with adjustable duration (0–12s).
+- Automix with beat-matching and tempo-stretching (Beta).
+- Offline downloads with embedded metadata.
+- Local music library integration.
+- Background playback with foreground media sessions.
 
-#### Connectivity & Accounts
-- **Sign in with your Google account** for personalized content.
-- **Spotify integration** — connect your account to play your playlists and Liked Songs.
-- **Discord Rich Presence** — in-app login, live track/artist/album and progress.
-- **Scrobbling** to Last.fm and ListenBrainz.
-- **Pluggable sources** — add, edit, test and health-check module sources.
+🎧 Audio Controls
 
-    </td>
-    <td width="50%" valign="top">
+- Independent Wi-Fi and mobile data quality settings.
+- Playback speed control (0.5x–2.0x).
+- Skip silence.
+- Sleep timer.
+- System equalizer integration.
+- Bit-perfect USB exclusive output.
+- Audio statistics and playback information.
 
-#### Experience
-- **Animated album canvas** — motion artwork on the now-playing screen.
-- **Word-synced lyrics** — word/syllable-level highlighting from multiple sources.
-- **Lyrics providers** — credit to [lrc.red](https://lrc.red), [BiniLyrics](https://github.com/binimum), [BetterLyrics](https://github.com/better-lyrics/better-lyrics), [PaxSenix](https://lyrics.paxsenix.org), [LyricsPlus](https://github.com/ibratabian17/YouLyPlus), [SimpMusic](https://github.com/maxrave-dev/SimpMusic), [Unison](https://unison.boidu.dev), [Megalobiz](https://www.megalobiz.com), [KuGou](https://www.kugou.com), [LRCLIB](https://lrclib.net), [Musixmatch](https://www.musixmatch.com) and [Genius](https://genius.com).
-- **Dynamic, artwork-driven theming** — Material palette extracted from album art.
-- **Frosted-glass UI** — Telegram-style translucent bars via Haze, Material 3 theming.
+</td>
+<td width="50%" valign="top">🎨 Visual Experience
 
-#### Controls & Tweaks
-- **Per-network audio quality** — separate quality ceilings for Wi-Fi and mobile data.
-- **Playback speed control** (0.5×–2.0×) and **skip silence**.
-- **Sleep timer** — fixed presets or "stop after this track".
-- **System equalizer** integration.
-- **Bit-perfect USB exclusive output** — sends lossless tracks to a USB DAC unchanged, at each track's own rate and bit depth. Thanks to [Mornye](https://github.com/mornyeapp/Mornye) for the reference.
-- **Stats for nerds** — codec, bit depth, sample rate, and more on the now-playing screen.
+- Animated album artwork.
+- Word-synchronized lyrics.
+- Multiple lyrics providers.
+- Dynamic artwork-based Material theming.
+- Frosted-glass interface.
+- Material 3 design system.
+- Animated lyrics interface.
 
-    </td>
-  </tr>
-</table>
+🌐 Integrations
 
-</div>
+- Google account authentication.
+- Spotify integration.
+- Discord Rich Presence.
+- Last.fm scrobbling.
+- ListenBrainz scrobbling.
+- Configurable external music sources.
+- Source testing and health monitoring.
 
----
+</td>
+</tr>
+</table>---
 
-<div align="center">
+◈ Audio Experience
 
-<h1><a id="download"></a>Download</h1>
+NrNMusic supports multiple playback environments and audio configurations.
 
-<a href="https://github.com/project-anonymous02/nrnmusic-based/releases" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/supported/android/cozy.svg" alt="Download for Android" height="55"/></a>
-
-Grab the latest signed APK from the [Releases](https://github.com/project-anonymous02/nrnmusic-based/releases) page. Sideloading requires enabling "Install unknown apps" for whichever app you download it with.
-
-
-</div>
-
----
-
-<div align="center">
-
-<h1><a id="contributing"></a>Contributing</h1>
-
-We welcome contributions to NrNMusic! Please review our [Contributing Guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before submitting a Pull Request.
-
-[**Contributing Guide**](CONTRIBUTING.md) · [**Code of Conduct**](CODE_OF_CONDUCT.md) · [**Maintainers**](MAINTAINERS.md) · [**Additional Docs**](ADDITIONAL.md)
-
-### Thanks to all contributors ❤
-
-<a href="https://github.com/project-anonymous02/nrnmusic-based/graphs/contributors">
-  <img src="https://raw.githubusercontent.com/project-anonymous02/nrnmusic-based/contributors/contributors.svg" />
-</a>
-
-</div>
+Capability| Description
+Online Streaming| Music playback through supported online sources
+Local Playback| Access to music stored on the device
+Lossless Audio| External module-based lossless sources
+Gapless Playback| Continuous playback between tracks
+Crossfade| Adjustable transitions between songs
+USB Exclusive| Direct bit-perfect output to supported USB DACs
+Lyrics| Synchronized lyric presentation
+Automix| Intelligent music transitions (Beta)
 
 ---
 
-<div align="center">
+◈ Design Philosophy
 
-<h1><a id="support"></a>Support</h1>
+NrNMusic is designed with attention to both functionality and visual consistency.
 
-NrNMusic is free and always will be — if it's earned a spot in your rotation, you can chip in here:
+01. Minimalism
 
-<a href="https://ko-fi.com/project-anonymous02" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/donate/kofi-singular-alt/cozy.svg" alt="Support me on Ko-fi" height="55"/></a>
-<a href="https://paypal.me/kuxhagrasingh" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/JMcrafter26/badges@main/src/assets/donate/paypal-plural/cozy.svg" alt="Support us on PayPal" height="55"/></a>
+A clean interface that prioritizes the music and its artwork.
 
-<br/>
-<img src="upi_support.jpg" alt="UPI Support" width="250" />
+02. Personalization
 
-</div>
+Customizable themes, audio settings, and music sources.
 
----
+03. Performance
 
-<div align="center">
+Responsive playback and efficient resource utilization.
 
-<h1><a id="disclaimer"></a>Disclaimer & Legal Notice</h1>
+04. Extensibility
 
-NrNMusic is an independent, community-driven third-party audio player and client. It is **not** associated with Google LLC, YouTube Music, Deezer, Telegram, or any of their parent companies.
-
-* **No Media Hosting:** NrNMusic does not host, upload, or store copyrighted music files. It operates strictly as an interface to scan local device storage or stream media directly from public, public-facing, or user-authenticated APIs.
-* **Fair Use & API Usage:** This software is created solely for personal research, educational, and fair-use purposes. The user is entirely responsible for ensuring their usage aligns with their local copyright laws and YouTube Terms of Service.
-* **No Ad-Blocking Guarantee:** While NrNMusic focuses on providing a clean listening environment, it does not guarantee permanent bypasses or modifications to commercial third-party platform conditions.
-* **Copyleft:** NrNMusic is free software under the GPLv3. The license does not let anyone forbid others from selling or redistributing copies, but any distribution must come with the Corresponding Source under the same license.
-
-</div>
+A modular approach that allows additional integrations and capabilities.
 
 ---
 
-<div align="center">
+◈ Project Architecture
 
-<h1><a id="license"></a>License</h1>
+The application brings together several independent components:
 
-This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See the [LICENSE](LICENSE) file for details.
+NrNMusic
+│
+├── Music Sources
+│   ├── Online Streaming
+│   ├── External Modules
+│   └── Local Library
+│
+├── Playback Engine
+│   ├── Audio Processing
+│   ├── Gapless Playback
+│   ├── Crossfade
+│   └── Automix
+│
+├── Music Experience
+│   ├── Lyrics Synchronization
+│   ├── Album Artwork
+│   └── Dynamic Theming
+│
+├── Integrations
+│   ├── Google
+│   ├── Spotify
+│   ├── Discord
+│   └── Scrobbling Services
+│
+└── Audio Configuration
+    ├── Equalizer
+    ├── USB Exclusive Output
+    └── Playback Statistics
+
+---
+
+⚖️ Disclaimer
+
+NrNMusic is an independent, community-driven third-party audio player.
+
+It is not affiliated with, endorsed by, or officially connected to Google LLC, YouTube Music, Spotify, Deezer, Telegram, or their respective parent companies.
+
+- Media Hosting: NrNMusic does not host or distribute copyrighted music files. It accesses media through supported sources and local device storage.
+- API Usage: Users are responsible for ensuring their usage complies with applicable terms of service and copyright laws.
+- Third-Party Services: External integrations may change or become unavailable independently of NrNMusic.
+- Trademarks: All third-party trademarks and services remain the property of their respective owners.
+
+---
+
+📜 License
+
+NrNMusic is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+All distributions and modifications must comply with the terms of this license.
+
+---
+
+<div align="center"><img src="Logo.png" width="65" alt="NrNMusic"/>NrNMusic
+
+Music is more than sound. It's an experience.
+
+Made with passion.
 
 </div>
